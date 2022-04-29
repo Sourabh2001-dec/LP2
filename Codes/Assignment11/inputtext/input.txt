@@ -1,0 +1,6 @@
+
+Global Innovation Network and Analysis (GINA) team is a group of senior technologists located in centers of excellence (COEs) around the world.
+The team’s charter is to engage employees across global COEs to drive innovation, research and university partnerships.
+The GINA case study provides an example of how a team applied the Data Analytics Lifecycle to analyze innovation data t EMC.
+Innovation is typically a difficult concept to measure, and this team wanted to look for ways to use advanced analytical methods to identify key innovators within the company.
+The GINA team thought its approach would provide a means to share ideas globally and increase knowledge sharing among GINA members who may be separated geographically.
