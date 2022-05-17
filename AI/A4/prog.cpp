@@ -2,8 +2,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void printBoard(vector<string> &board){
-    for(auto row : board){
+void printBoard(vector<string> &board)
+{
+    for (auto row : board)
+    {
         cout << row << endl;
     }
     cout << "\n";
@@ -58,8 +60,7 @@ int main(int argc, char const *argv[])
 {
     cout.tie(0);
 
-    solveNQueens(4  );
+    solveNQueens(10);
 
     return 0;
 }
-

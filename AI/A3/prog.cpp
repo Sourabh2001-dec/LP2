@@ -5,17 +5,19 @@ void selectionSort(vector<int> &arr)
 {
     int size = arr.size();
     for (int i = 0; i < size; i++)
-    {   
+    {
+        int minIndex = i;
         for (int j = i + 1; j < size; j++)
         {
-            if (arr[i] > arr[j])
+            if (arr[i] > arr[j] && arr[j] < arr[minIndex])
             {
-                swap(arr[i], arr[j]);
+                minIndex = j;
             }
         }
+        swap(arr[i], arr[minIndex]);
     }
 }
-        
+
 int main()
 {
 
